@@ -20,39 +20,45 @@
     background-origin: border-box;
     background-clip: padding-box, border-box;
   }
+
   .buttonb1:hover {
     background-image: linear-gradient(#f5fdff, #f5fdff), linear-gradient(to right, rgb(0, 183, 244), rgb(54, 96, 224));
   }
+
   .buttonb1:active {
     transform: scale(0.99);
   }
-/*----/buttonb1----*/
+
+  /*----/buttonb1----*/
 
 
 
- /*----buttonb2----*/
- .buttonb2 {
-  padding: 12px 30px;
+  /*----buttonb2----*/
+  .buttonb2 {
+    padding: 12px 30px;
     color: rgb(255 255 255);
     border: none;
     border-radius: 8px;
     background-image: linear-gradient(to right, deepskyblue, royalblue);
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
   }
+
   .buttonb2:hover {
     background-image: linear-gradient(to right, deepskyblue, royalblue);
   }
+
   .buttonb2:active {
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 2px 3px 3px 0px rgba(0, 0, 0, .1);
     transform: scale(0.99);
   }
-/*----/buttonb2----*/
+
+  /*----/buttonb2----*/
 
 
 
 
 
-/*----buttonb3----*/
+  /*----buttonb3----*/
   .buttonb3 {
     padding: 12px 30px;
     color: rgb(52, 52, 52);
@@ -63,19 +69,39 @@
     background-clip: padding-box, border-box;
     box-shadow: -4px 4px 0px rgb(0 0 0 / 8%);
   }
+
   .buttonb3:hover {
     background-image: linear-gradient(#f5fdff, #f5fdff), linear-gradient(to right, rgb(0, 183, 244), rgb(54, 96, 224));
   }
+
   .buttonb3:active {
-    box-shadow: -3px 3px 0px rgb(0 0 0 / 9%);
+    box-shadow: -2px 2px 0px rgb(0 0 0 / 14%);
     transform: scale(0.99);
   }
-/*----/buttonb1----*/
+
+  /*----/buttonb3----*/
 
 
-  
+
+  /*----buttonb4----*/
+  .buttonb4 {
+    padding: 12px 30px;
+    color: rgb(255 255 255);
+    border: none;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(top, #83be60, #5eaa30);
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .buttonb4:active {
+    background: #5eaa30;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 1);
+  }
+
+  /*----/buttonb4----*/
 </style>
 </head>
+
 <body>
 
   <button class="buttonb1">Click</button>
@@ -83,6 +109,9 @@
   <button class="buttonb2">Click</button>
   <br><br>
   <button class="buttonb3">Click</button>
+  <br><br>
+  <button class="buttonb4">Click</button>
 
 </body>
+
 </html>
